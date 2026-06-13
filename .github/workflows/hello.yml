@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello, GitHub Actions!"
+      -name: wellome to CICD
+      run:echo "wellcome, Wellcome to CICD!"
+      
 
       - name: Show runner info
         run: |
